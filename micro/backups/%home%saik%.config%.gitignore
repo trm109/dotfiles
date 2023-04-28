@@ -1,0 +1,17 @@
+*
+*/*
+
+!micro/
+!micro/**
+!waybar
+!waybar/**
+!swaylock
+!swaylock/**
+!rofi
+!rofi/**
+!hypr
+!hypr/**
+!alacritty
+!alacritty/**
+!input-remapper-2
+!input-remapper-2/**

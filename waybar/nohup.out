@@ -1,0 +1,18 @@
+[2023-04-26 09:52:31.996] [info] Using configuration file /home/saik/.config/waybar/config
+[2023-04-26 09:52:31.996] [info] Using CSS file /home/saik/.config/waybar/style.css
+[2023-04-26 09:52:32.002] [warning] Waybar has been built without rfkill support.
+[2023-04-26 09:52:32.007] [error] spotify stopped unexpectedly, is it endless?
+[2023-04-26 09:52:32.014] [warning] module sway/mode: Disabling module "sway/mode", Socket path is empty
+[2023-04-26 09:52:32.023] [warning] module sway/workspaces: Disabling module "sway/workspaces", Socket path is empty
+sh: line 1: checkupdates: command not found
+
+(waybar:13823): GLib-GObject-CRITICAL **: 09:52:32.066: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:13823): GLib-GObject-CRITICAL **: 09:52:32.066: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+[2023-04-26 09:52:32.068] [warning] Waybar has been built without rfkill support.
+[2023-04-26 09:52:32.077] [error] spotify stopped unexpectedly, is it endless?
+[2023-04-26 09:52:32.090] [warning] module sway/mode: Disabling module "sway/mode", Socket path is empty
+[2023-04-26 09:52:32.103] [warning] module sway/workspaces: Disabling module "sway/workspaces", Socket path is empty
+sh: line 1: checkupdates: command not found
+[2023-04-26 09:52:32.324] [info] Bar configured (width: 2560, height: 37) for output: DP-7
+[2023-04-26 09:52:32.324] [info] Bar configured (width: 2560, height: 37) for output: eDP-1
