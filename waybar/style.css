@@ -289,6 +289,30 @@ window#waybar.hidden {
 	color: #C678DD;
 	background: #0A0E14;
 }
+#temperature {
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	border-radius: 5px;
+	border-bottom: 2px solid #C678DD;
+	transition: none;
+	color: #C678DD;
+	background: #0A0E14;
+}
+#temperature.critical {
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 5px;
+	border-bottom: 2px solid #EA6C73;
+	transition: none;
+	color: #EA6C73;
+	background: #0A0E14;
+}
 
 #tray {
 	margin-top: 6px;
@@ -369,6 +393,56 @@ window#waybar.hidden {
 }
 
 #custom-vpn {
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 5px;
+	border-bottom: 2px solid #91B362;
+	transition: none;
+	color: #91B362;
+	background: #0A0E14;
+}
+
+#power_profile {
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 5px;
+	border-bottom: 2px solid #91B362;
+	transition: none;
+	color: #91B362;
+	background: #0A0E14;
+}
+#custom-power_profile.Performance {
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 5px;
+	border-bottom: 2px solid #EA6C73;
+	transition: none;
+	color: #EA6C73;
+	background: #0A0E14;
+}
+
+#custom-power_profile.Balanced {
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 5px;
+	border-bottom: 2px solid #53BDFA;
+	transition: none;
+	color: #53BDFA;
+	background: #0A0E14;
+}
+#custom-power_profile.Quiet {
 	margin-top: 6px;
 	margin-left: 8px;
 	padding-left: 10px;

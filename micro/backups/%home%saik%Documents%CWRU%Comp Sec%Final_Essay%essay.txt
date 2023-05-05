@@ -1,0 +1,55 @@
+WalesTech has experienced a series of security breaches on its network and systems infrastructure. Each successful attack in the past has resulted in the loss of valuable digital information and also loss of operations time as the firm struggles to clean up its systems. The head of Information Security would like to understand the concept of Intrusion detection and its mechanisms and also how intrusion prevention systems, firewalls, and their associated mechanisms can help to better secure their networks from future attacks
+
+Present a detailed review of Intrusion Detection systems, and their mechanisms and recommend how WalesTech can implement this.
+	Part A: A brief introduction and discussion of the theoretical concepts relevant to the question prompt
+		Intrusion Detection Systems (IDS) are security tools intended to detect and alert sys-admins when unauthorized access or malicious activities are detected on a network or system. IDSs also monitor network traffic, syslogs, and other data streams to detect security incidents.		
+	Part B: A detailed review of the unique mechanisms associated with the subject topic in the question
+		IDSs can be broken up into two categories: signature-based and behaviour-based. Signature-based IDSs compare network traffic to known malicious signatures/pattens. In contrast, behavior based IDSs analyze network traffic for abnormal network behavior and alert sys admins when an anomaly is detected. Hybrid IDSs use both of these techniques.
+	Part C. A brief review of known incidents that illustrate the occurrence of the subject topic
+		To exemplify the importance of a robust IDS implementation, we can look at the 2017 Equifax Data Breach, where atackeers were able to exploit a vulnerability in Equifax's webapp framework, allowing the attackers to steal personal and financial data of 150 million people. This could've been prevented if it were not for the fact that their IDS failed to detect the attack.
+	Part D. A concise review of associated countermeasures and a final recommendation
+		If Walestech wanted to implement a robust IDS, I recommend Suricata IDPS (Intrusion Detection and Prevention System). Suricata is a free and open source IDS/IPS, and is widely considered to be the industry standard. Along with massive community support, known vulnerabilities/CVEs are very quickly patched due to its Open Source nature. However, like most other software in computer security, nothing is 'plug and play', significant time is required to engineer and test the IDPS to ensure it actual maintains proper security coverage.
+	Part E: References
+		https://resources.infosecinstitute.com/topic/open-source-ids-snort-suricata/
+		https://suricata.io/
+		https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-94.pdf
+	
+Present a detailed review of Intrusion Prevention systems, and their mechanisms and recommend how WalesTech can implement this.
+	>Also Suricata IDPS
+	>How IPS works.
+	>How Suricata protects.
+	Part A: A brief introduction and discussion of the theoretical concepts relevant to the question prompt
+		Intrusion Prevention Systems (IPS) are a continuation of IDSs, IPS are able to execute commands in response to a detection. If IDSs are the eyes, IPSs are the arms, allowing automated blocking of malicious activity rather than just the automated logging of malicious activity.
+	Part B: A detailed review of the unique mechanisms associated with the  subject topic in the question
+		IPSs have multiple mechanisms that allow them to provide automated, active security. Packet filtering allows IPSs to filter incoming and outgoing packets based on predetermined security policies. If a packet is deemed unsafe, the IPS can prevent it from being sent out or into the network. IPSs can also analyze the application protocols used by network traffic to determine whether or not the traffic is legitimate or malicious. In order to ensure that the IPS is up-to-date with information about modern threat data, the IPS database must be updated regularly with threat data from new attacks. This allows IPS very quickly learn about new attack methods that may arise.
+	Part C. A brief review of known incidents that illustrate the occurrence of the subject topic
+		In 2020, there was a severe supply chain/upstream attack on SolarWind's software update process, which was then distributed to customers, compromising US Government agencies and many private companies. If SolarWind's IPS 
+	Part D. A concise review of associated countermeasures and a final recommendation
+	
+	Part E: References
+		https://www.checkpoint.com/cyber-hub/network-security/what-is-ips/#:~:text=IPS%20technologies%20can%20detect%20or,gain%20control%20of%20a%20system.
+
+Present a concise review of Firewalls and how they can function as an effective gatekeepers for WalesTech's network infrastructure.
+	> iptables (no), pfSense
+	> What firewalls are, how they work
+	> pfSense methodology.
+	Part A: A brief introduction and discussion of the theoretical concepts relevant to the question prompt
+	
+	Part B: A detailed review of the unique mechanisms associated with the  subject topic in the question
+	
+	Part C. A brief review of known incidents that illustrate the occurrence of the subject topic
+	
+	Part D. A concise review of associated countermeasures and a final recommendation
+	
+	Part E: References
+
+
+
+
+
+
+Links:
+	Suricata vs Snort: https://resources.infosecinstitute.com/topic/open-source-ids-snort-suricata/
+	Suricata IDS
+	Suricata IPS
+	pfSense

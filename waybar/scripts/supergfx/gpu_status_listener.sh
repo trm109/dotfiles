@@ -3,11 +3,11 @@
 
 _get_icon () {
     case "$1" in
-        0) echo '{"text":"Active","class":"active"}'
-        ;; 1) echo '{"text":"Suspended","class":"suspended"}'
-        ;; 2) echo '{"text":"Off","class":"off"}'
-        ;; 3) echo '{"text":"dGPU Disabled","class":"disabled"}'
-        ;; 4) echo '{"text":"Discrete MUX","class":"mux"}'
+        0) echo '{"text":"","class":"active"}'
+        ;; 1) echo '{"text":"","class":"suspended"}'
+        ;; 2) echo '{"text":"","class":"off"}'
+        ;; 3) echo '{"text":"","class":"disabled"}'
+        ;; 4) echo '{"text":"","class":"mux"}'
         ;;
     esac
 }

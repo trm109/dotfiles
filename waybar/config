@@ -2,12 +2,12 @@
     "layer": "top",
     "height": 40,
     "fixed-center":true,
-    "modules-left": ["custom/launcher","cpu","memory","network","custom/vpn","custom/media"],
+    "modules-left": ["custom/launcher","cpu","memory","network","custom/vpn","custom/updates","custom/media"],
     "modules-center": ["wlr/workspaces"],
-    "modules-right": ["custom/supergfx","backlight","custom/wallpaper","pulseaudio","battery","clock","custom/power"],
+    "modules-right": ["temperature","custom/supergfx","custom/power_profile","backlight","custom/wallpaper","pulseaudio","battery","clock","custom/power"],
     
     //To do;
-    // 1. Add Supergfxctl support.
+    // 1. Add Supergfxctl support. 󰒲 
     // 2. Vpn support.
     // 3. Powermanagement support (low-med-high)
     "custom/supergfx": {
@@ -117,9 +117,21 @@
     },
     "custom/updates":{
         "format": " {}",
-        "exec": "checkupdates | wc -l",
+        "exec": "checkupdates+aur | wc -l",
         "exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
         "interval": 3600,
-        "on-click": "alacritty -e paru -Syu && notify-send 'paru' 'The system has been updated' -i dialog-information-symbolic"
-    }
+        "on-click": "alacritty -e paru -Syu && notify-send 'paru' 'The system has been updated' -i dialog-information-symbolic; pkill -SIGRTMIN+8 waybar",
+        "signal": 8
+    },
+    "temperature": {
+    	"format": "{}°C",
+    	"interval": "15",
+    	"critical-threshold": 80,
+    },
+    "custom/power_profile": {
+        "format": "Profile {}",
+        "exec": "~/.config/waybar/scripts/power_profiles/power_profile_listener.sh",
+        "return-type":"json"
+    },
+
 }
