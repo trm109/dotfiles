@@ -1,0 +1,10 @@
+#!/bin/bash
+
+kbd_pid=$(pidof wvkbd-mobintl)
+
+if [ -z "$kbd_pid" ]; then
+  wvkbd-mobintl -L 450 -l full
+else
+  pkill wvkbd-mobintl
+fi
+
