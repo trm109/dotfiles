@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 iDIR="$HOME/.config/hypr/mako/icons"
 

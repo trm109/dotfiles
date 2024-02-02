@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 width=-550
 state=$(supergfxctl -S)
 ans=$(printf "Integrated\nCompute\nHybrid\nDedicated\nVFIO" |wofi --dmenu --width=5 -L 5 --style=$HOME/.config/hypr/wofi/styles/gfxmenu.css --hide-scroll --location 3 --x $width -p "State: $state")

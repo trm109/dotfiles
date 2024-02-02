@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -x
 # Define the path
 wallpaper_path="$HOME/Pictures/wallpapers/Dynamic-Wallpapers"

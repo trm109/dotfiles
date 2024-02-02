@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 mode="$(supergfxctl -g)"
 state="$(supergfxctl -S)"
 echo "{\"text\":\"$mode\", \"tooltip\":\"$state\"}"

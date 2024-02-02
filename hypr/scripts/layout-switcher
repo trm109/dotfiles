@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Files
 CONFIG="$HOME/.config/hypr/wofifull/config"

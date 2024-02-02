@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 kbd_pid=$(pidof wvkbd-mobintl)
 

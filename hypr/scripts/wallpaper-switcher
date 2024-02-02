@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # WALLPAPERS PATH
 DIR=$HOME/Pictures/wallpapers
