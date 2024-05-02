@@ -1,8 +1,0 @@
-font=hack
-font-size=10
-color=000000
-#image=/home/saik/Pictures/vanilla_vik.png
-inside-color=282828
-indicator-idle-visible
-ignore-empty-password
-daemonize

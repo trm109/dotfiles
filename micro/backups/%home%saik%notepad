@@ -1,6 +1,0 @@
-Vertex 	ShortestDistFromA	PreviousVertex
-A 		0								
-B		3					D
-C		7					E
-D		1					A
-E		2				

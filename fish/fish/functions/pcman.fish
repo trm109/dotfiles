@@ -1,3 +1,0 @@
-function pcman
- myman; 
-end
