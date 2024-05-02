@@ -1,0 +1,134 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 2,
+                "origin_hash": "22d9461abf9df813a2ed84574e0413b7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_LEFT",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 3,
+                "origin_hash": "22d9461abf9df813a2ed84574e0413b7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_UP",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 4,
+                "origin_hash": "22d9461abf9df813a2ed84574e0413b7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_RIGHT",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 5,
+                "origin_hash": "22d9461abf9df813a2ed84574e0413b7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "XF86LaunchA",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 6,
+                "origin_hash": "22d9461abf9df813a2ed84574e0413b7"
+            }
+        ],
+        "target_uinput": "keyboard + mouse",
+        "output_symbol": "if_eq($fmode,1,if_eq($auto_ability,1,key(KEY_F)).hold(key(BTN_LEFT).wait(120)).if_eq($auto_ability,1,key(KEY_F)),if_eq($fmode,2,if_eq($auto_ability,1,key(KEY_F)).hold(key(BTN_LEFT).wait(50)).if_eq($auto_ability,1,key(KEY_F)),if_eq($auto_ability,1,key(KEY_F)).hold(BTN_LEFT)).if_eq($auto_ability,1,key(KEY_F)))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 7,
+                "origin_hash": "22d9461abf9df813a2ed84574e0413b7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "XF86Launch9",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 8,
+                "origin_hash": "22d9461abf9df813a2ed84574e0413b7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "set(fmode,0)",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 9,
+                "origin_hash": "22d9461abf9df813a2ed84574e0413b7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "set(fmode,1)",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 10,
+                "origin_hash": "22d9461abf9df813a2ed84574e0413b7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "set(fmode,2)",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 11,
+                "origin_hash": "22d9461abf9df813a2ed84574e0413b7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "set(auto_ability,0)",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 13,
+                "origin_hash": "22d9461abf9df813a2ed84574e0413b7"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "set(auto_ability,1)",
+        "mapping_type": "key_macro"
+    }
+]
